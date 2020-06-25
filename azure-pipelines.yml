@@ -1,12 +1,13 @@
 trigger:
-- '*'
+- 'code-workflow'
 
 pool:
+
   vmImage: 'windows-latest'
   demands:
     - npm
 
-variables:
+variables:s
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '3.1.300'
