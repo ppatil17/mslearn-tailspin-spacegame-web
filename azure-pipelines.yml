@@ -1,5 +1,5 @@
 trigger:
-- 'code-workflow'
+- '*'
 
 pool:
 
