@@ -1,8 +1,7 @@
 trigger:
-- 'code-workflow'
+- '*'
 
 pool:
-
   vmImage: 'windows-latest'
   demands:
     - npm
